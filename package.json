@@ -1,0 +1,22 @@
+{
+  "name": "imba_tutorial",
+  "version": "1.0.0",
+  "description": "Tic tac toe tutorial for imba.",
+  "main": "index.js",
+  "author": "Max Nelson",
+  "license": "MIT",
+  "dependencies": {
+    "imba": "^1.4.0",
+    "webpack": "^4.26.0",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "start": "imba src/server.imba",
+    "dev": "webpack-dev-server --content-base dist/",
+    "build": "webpack",
+    "watch": "webpack --watch --progress --colors --display-modules"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
